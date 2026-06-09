@@ -1,0 +1,29 @@
+# ── Environment & secrets ────────────────────────────────────────────────────
+.env
+.env.*
+
+# ── OS / editor artefacts ────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.pem
+.idea/
+.vscode/
+*.swp
+*~
+
+# ── Docs ─────────────────────────────────────────────────────────────────────
+docs/
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+.pytest_cache
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
